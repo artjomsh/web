@@ -1,0 +1,72 @@
+[
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Larger and smaller things that I do",
+    "section": "",
+    "text": "Computational poetics\n\n\nVerse forms, poetic language, social production of poetry, authorship attribution.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPoetic meter & meaning\n\n\nI study the role of poetic forms in maintaining divergent poetic traditions, or, as it is known, semantic halo of meter\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFoundations of Computational Stylometry\n\n\nProject at IJP PAN aimed at identifying hidden patterns and similarities in texts, computationally.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInnovation in video game speedruns\n\n\nHow people discover things in adaptive landscapes of video games and are able to beat their best times over and over again.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nseetrees\n\n\nR package that enhances interpretability of stylometric results from stylo\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nComputational Literary Studies Infrastructure\n\n\nI am a small part of a large infrastructural project. Mostly doing research.\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "biblio.html",
+    "href": "biblio.html",
+    "title": "Publications",
+    "section": "",
+    "text": "2023\n\n\nŠeļa, A., Nagy, B., Byszuk, J., Hernández-Lorenzo, L., Szemes, B., & Eder, M. (2023). From stage to page: Language independent bootstrap measures of distinctiveness in fictional speech. arXiv:2301.05659. https://arxiv.org/abs/2301.05659\n\n\n\n\n2022\n\n\nKanger, L., Tinits, P., Pahker, A.-K., Orru, K., Tiwari, A. K., Sillak, S., Šeļa, A., & Vaik, K. (2022). Deep transitions: Towards a comprehensive framework for mapping major continuities and ruptures in industrial modernity. Global Environmental Change, 72, 102447. https://doi.org/10.1016/j.gloenvcha.2021.102447\n\n\nŠeļa, A., & Gronas, M. (2022). Measuring rhythm regularity in verse: Entropy of inter-stress intervals. CHR 2022: Computational Humanities Research Conference, 231–242. https://ceur-ws.org/Vol-3290/short_paper5417.pdf\n\n\nŠeļa, A., Plecháč, P., & Lassche, A. (2022). Semantics of european poetry is shaped by conservative forces: The relationship between poetic meter and meaning in accentual-syllabic verse. PLOS ONE, 17(4), e0266556. https://doi.org/10.1371/journal.pone.0266556\n\n\n\n\n2021\n\n\nIdziak, J., Šeļa, A., Woźniak, M., Leśniak, A., Byszuk, J., & Eder, M. (2021). Scalable handwritten text recognition system for lexicographic sources of under-resourced languages and alphabets. In M. Paszynski, D. Kranzlmüller, V. V. Krzhizhanovskaya, J. J. Dongarra, & P. M. A. Sloot (Eds.), Computational science – ICCS 2021 (pp. 137–150). Springer International Publishing. https://doi.org/10.1007/978-3-030-77961-0_13\n\n\nPlecháč, P., Cooper, A., Nagy, B., & Šeļa, A. (2021). Beowulf single-authorship claim is unsupported. Nature Human Behaviour, 5(11), 1481–1483. https://doi.org/10.1038/s41562-021-01222-5\n\n\nPlecháč, P., & Šeļa, A. (2021). Applications. In Versification and authorship attribution (pp. 69–91). Karolinum Press. https://doi.org/10.14712/9788024648903.5\n\n\nŠeļa, A. (2021a). Russian self-taught poets of the 1820s: Pastoral, patronage and the british example. Russian Literature, 119, 15–41. https://doi.org/10.1016/j.ruslit.2021.01.004\n\n\nŠeļa, A. (2021b). Differences, distances and fingerprints: The fundamentals of stylometry and multivariate text analysis [erinevused, kaugused ja sõrmejäljed: Stilomeetria ja mitmemõõtmelise tekstianalüüsi alused]. Keel Ja Kirjandus, 8-9, 696–718. https://doi.org/10.54013/kk764a3\n\n\n\n\n2020\n\n\nByszuk, J., Woźniak, M., Kestemont, M., Leśniak, A., Łukasik, W., Šeļa, A., & Eder, M. (2020). Detecting direct speech in 19th-century novels. LREC 2020. https://aclanthology.org/2020.lt4hala-1.15\n\n\nŠeļa, A., Orekhov, B., & Leibov, R. (2020). Weak genres: Modeling association between poetic meter and meaning in russian poetry. CHR 2020: Workshop on Computational Humanities Research, 12–31. http://ceur-ws.org/Vol-2723/long35.pdf\n\n\n\n\n2017\n\n\nKanatova, M., Milyakina, A., Pilipovec, T., Shelya, A., Sobchuk, O., & Tinits, P. (2017). Broken time, continued evolution: Anachronies in contemporary film. Literary Lab Pamphlets, 14, 1–22. https://litlab.stanford.edu/LiteraryLabPamphlet14.pdf\n\n\nShelya, A., & Sobchuk, O. (2017). The shortest species: How the length of russian poetry changed (1750–1921). Studia Metrica Et Poetica, 4(1), 66–84. https://doi.org/10.12697/smp.2017.4.1.03"
+  },
+  {
+    "objectID": "projects/seetrees/index.html",
+    "href": "projects/seetrees/index.html",
+    "title": "seetrees",
+    "section": "",
+    "text": "The package seetrees is a small (currently) extension to a well-known stylo library. The latter does unsupervised and supervised classification of texts based on bags of features, and relies a lot on hierarchical clustering. I add some tree cutting and feature-to-cluster association measures, so that one can detect a high-level corpus bias, and get insight into which words might drive the clusterization.\nI am not planning releasing the package on CRAN any time soon, it is mostly used for demonstration, teaching and exploration of the corpus. You can, however, install it from Github repository. You can find a demonstration below."
+  },
+  {
+    "objectID": "projects/seetrees/index.html#clusters-features",
+    "href": "projects/seetrees/index.html#clusters-features",
+    "title": "seetrees",
+    "section": "Clusters & features",
+    "text": "Clusters & features\nInstall from GitHub (make sure you have devtools package):\n\ndevtools::install_github(\"perechen/seetrees\")\n\n\nlibrary(stylo)\nlibrary(seetrees)\n\ndata(lee) ## load one of the stylo datasets\n\nstylo_res <- stylo(frequencies=lee,gui=F)\n\n\n\nview_tree(stylo_res, k=2,right_margin=12) ## redraws a dendrogram based on distance matrix, cuts it to k groups, shows associated features \n\n\n\n\n\n\n\nCheck ?view_tree() for more details."
+  },
+  {
+    "objectID": "projects/speedruns/index.html",
+    "href": "projects/speedruns/index.html",
+    "title": "Innovation in video game speedruns",
+    "section": "",
+    "text": "A pocket study on something I was always fascinated with: people playing video games to beat them as fast as possible, and doing that in increasingly breathtaking fashion. I work together with amazing researchers of cultural evolution: Oleg Sobchuk, Thomas Franz Müller, and James Winters. The research is mostly done, but since it is a pet project for everyone involved, it is in a bit of a limbo. Hopefully, a preprint will come out in 2023! (We also did a lightning talk about it during EHBEA 2022).\nIn many respects, the study was inspired by Summoning Salt’s “World Record Progression” videos."
+  },
+  {
+    "objectID": "projects/comp-poetics/index.html",
+    "href": "projects/comp-poetics/index.html",
+    "title": "Computational poetics",
+    "section": "",
+    "text": "One of my main areas of work is the analysis of general patterns in verse language, prosody, and structure. I try to figure out ways to access rich formal information, such as rhythm regularity (Šeļa and Gronas 2022), and show the ways it changes over time or shapes poetic communities. In an upcoming paper, written with Mikhail Gronas, we show how simple measures of regularity and complexity allow us to map modern areas of differentiated style production (in Bourdieu’s fashion).\nA closely related field is authorship attribution of poetic texts, where differences in formal organization (rhythm, rhymes, etc.) of verse can be used to trace individual habits of poets. Together with Petr Plechác, we worked on a hilarious case of poetic mystification: one contemporary scholar forged a whole corpus of texts of a less-known Russian poet of the 19th century. Using verse features in an author verification scenario, we demonstrate conclusively (in contrast with previous work) that the origins of these texts are highly dubious (Plecháč and Šeļa 2021) .\n\n\n\n\n\nReferences\n\nPlecháč, Petr, and Artjoms Šeļa. 2021. “Applications.” In Versification and Authorship Attribution, 69–91. Karolinum Press. https://doi.org/10.14712/9788024648903.5.\n\n\nŠeļa, Artjoms, and Mikhail Gronas. 2022. “Measuring Rhythm Regularity in Verse: Entropy of Inter-Stress Intervals.” In CHR 2022: Computational Humanities Research Conference, 231–42. Antwerp: CEUR-WS. https://ceur-ws.org/Vol-3290/short_paper5417.pdf.\n\n\nShelya, Artjom, and Oleg Sobchuk. 2017. “The Shortest Species: How the Length of Russian Poetry Changed (1750–1921).” Studia Metrica Et Poetica 4 (1): 66–84. https://doi.org/10.12697/smp.2017.4.1.03."
+  },
+  {
+    "objectID": "projects/focs/index.html",
+    "href": "projects/focs/index.html",
+    "title": "Foundations of Computational Stylometry",
+    "section": "",
+    "text": "Working as a postdoc on this project (also known as FoCS), which is run by Maciej Eder in the Computational Stylistics Group of the Methodology Department at the Institute of Polish Language. Our goal is to understand the differences between texts and the forces that shape them, such as authorship, genre, and style. We frequently publish together with Joanna Byszuk, Michał Woźniak, and Ben Nagy. Plus many other friends!\nYou can find more information on the official page.\n\n\n\n\nReferences\n\nByszuk, Joanna, Michał Woźniak, Mike Kestemont, Albert Leśniak, Wojciech Łukasik, Artjoms Šeļa, and Maciej Eder. 2020. “Detecting Direct Speech in 19th-Century Novels.” In LREC 2020. https://aclanthology.org/2020.lt4hala-1.15.\n\n\nIdziak, Jan, Artjoms Šeļa, Michał Woźniak, Albert Leśniak, Joanna Byszuk, and Maciej Eder. 2021. “Scalable Handwritten Text Recognition System for Lexicographic Sources of Under-Resourced Languages and Alphabets.” In Computational Science – ICCS 2021, edited by Maciej Paszynski, Dieter Kranzlmüller, Valeria V. Krzhizhanovskaya, Jack J. Dongarra, and Peter M. A. Sloot, 137–50. Lecture Notes in Computer Science. Cham: Springer International Publishing. https://doi.org/10.1007/978-3-030-77961-0_13.\n\n\nŠeļa, Artjoms. 2021. “Differences, Distances and Fingerprints: The Fundamentals of Stylometry and Multivariate Text Analysis [Erinevused, Kaugused Ja Sõrmejäljed: Stilomeetria Ja Mitmemõõtmelise Tekstianalüüsi Alused].” Keel Ja Kirjandus, no. 8-9: 696–718. https://doi.org/10.54013/kk764a3.\n\n\nŠeļa, Artjoms, Ben Nagy, Joanna Byszuk, Laura Hernández-Lorenzo, Botond Szemes, and Maciej Eder. 2023. “From Stage to Page: Language Independent Bootstrap Measures of Distinctiveness in Fictional Speech.” arXiv:2301.05659. https://arxiv.org/abs/2301.05659."
+  },
+  {
+    "objectID": "projects/halo/index.html",
+    "href": "projects/halo/index.html",
+    "title": "Poetic meter & meaning",
+    "section": "",
+    "text": "Why do poetic meters ‘sound’ different? Some might even suggest that they have inherent meanings or purposes. The short answer to this question is that all poetic forms have a different history; they were used differently in the past and formed specific expectation horizons (often quite fuzzy). The long answer can be found in my work (that expands on previous fundamental research) (Šeļa, Plecháč, and Lassche 2022; Šeļa, Orekhov, and Leibov 2020), where I formally demonstrate that semantic features alone can predict poetic meter across traditions and languages.\nCW: LDA, clustering, adjusted Rand index, time travel.\n\n\n\n\n\nReferences\n\nŠeļa, Artjoms, Boris Orekhov, and Roman Leibov. 2020. “Weak Genres: Modeling Association Between Poetic Meter and Meaning in Russian Poetry.” In CHR 2020: Workshop on Computational Humanities Research, 12–31. Amsterdam: CEUR-WS. http://ceur-ws.org/Vol-2723/long35.pdf.\n\n\nŠeļa, Artjoms, Petr Plecháč, and Alie Lassche. 2022. “Semantics of European Poetry Is Shaped by Conservative Forces: The Relationship Between Poetic Meter and Meaning in Accentual-Syllabic Verse.” PLOS ONE 17 (4): e0266556. https://doi.org/10.1371/journal.pone.0266556."
+  },
+  {
+    "objectID": "projects/cls-infra/index.html",
+    "href": "projects/cls-infra/index.html",
+    "title": "Computational Literary Studies Infrastructure",
+    "section": "",
+    "text": "Horizon-2020 project CLS INFRA! I am currently working with incredible colleagues across Europe and writing a methodological survey on literary history. Previously, together with Lisanne van Rossum (at that time, KNAW), we completed a skills gap analysis in computational literary studies, launched an online survey, and identified areas in CLS/DH teaching that are likely underrepresented. You can read the full report (it’s 70 pages, so I don’t actually recommend it!) or look at the summary poster below.\n(You can open the image below in a new tab to get the high-res version.)"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Artjoms Šeļa",
+    "section": "",
+    "text": "I am currently an Assistant Professor at the Institute of Polish Language (Polish Academy of Sciences), doing computational literary studies and stylometry. My research interests include large-scale cultural changes in creative domains, with a primary focus on literature and European verse. I hold a PhD in Russian literature, but please do not ask me about Tolstoy: I have studied how folksongs were rendered in literature by the elites who shared Romantic national sentiment in a strange imperial setting. Now I try to understand literary evolution and other things most beautiful.\n\nResearch interests\n\nComputational literary studies\nVersification & history of poetic forms\nChange & innovation in literature and arts\nDigital-born manuscripts"
+  }
+]

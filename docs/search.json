@@ -60,7 +60,7 @@
     "href": "projects/cls-infra/index.html",
     "title": "Computational Literary Studies Infrastructure",
     "section": "",
-    "text": "Horizon-2020 project CLS INFRA! I am currently working with incredible colleagues across Europe and writing a methodological survey on literary history. Previously, together with Lisanne van Rossum (at that time, KNAW), we completed a skills gap analysis in computational literary studies, launched an online survey, and identified areas in CLS/DH teaching that are likely underrepresented. You can read the full report (it’s 70 pages, so I don’t actually recommend it!) or look at the summary poster below.\n(You can open the image below in a new tab to get the high-res version.)"
+    "text": "Horizon-2020 project CLS INFRA!"
   },
   {
     "objectID": "index.html",
@@ -68,5 +68,19 @@
     "title": "Artjoms Šeļa",
     "section": "",
     "text": "I am currently an Assistant Professor at the Institute of Polish Language (Polish Academy of Sciences), doing computational literary studies and stylometry. My research interests include large-scale cultural changes in creative domains, with a primary focus on literature and European verse. I hold a PhD in Russian literature, but please do not ask me about Tolstoy: I have studied how folksongs were rendered in literature by the elites who shared Romantic national sentiment in a strange imperial setting. Now I try to understand literary evolution and other things most beautiful.\n\nResearch interests\n\nComputational literary studies\nVersification & history of poetic forms\nChange & innovation in literature and arts\nDigital-born manuscripts"
+  },
+  {
+    "objectID": "projects/cls-infra/index.html#survey-on-methods",
+    "href": "projects/cls-infra/index.html#survey-on-methods",
+    "title": "Computational Literary Studies Infrastructure",
+    "section": "Survey on methods",
+    "text": "Survey on methods\nI’ve participated in putting together Survey of methods in computational literary studies. I wrote parts on analysis and evaluation in literary history that are personally important pieces for me as well.\nIt was a vast field to cover, so the description is very condensed. Nonetheless, few insights from this survey: methodologically and conceptually the chronological change is an open problem that is now solved using overly simplistic statistical methods. There is much room here to do better. Additionally, and related to the previous issue, the field currently completely ignores simulations and generative modeling; integrating this to our work on literary history can serve the basis of evaluation."
+  },
+  {
+    "objectID": "projects/cls-infra/index.html#skill-gap-analysis-community-survey",
+    "href": "projects/cls-infra/index.html#skill-gap-analysis-community-survey",
+    "title": "Computational Literary Studies Infrastructure",
+    "section": "Skill gap analysis, community survey",
+    "text": "Skill gap analysis, community survey\nPreviously, together with Lisanne van Rossum (at that time, KNAW), we completed a skills gap analysis in computational literary studies, launched an online survey, and identified areas in CLS/DH teaching that are likely underrepresented. You can read the full report (it’s 70 pages, so I don’t actually recommend it!) or look at the summary poster below.\n(You can open the image below in a new tab to get the high-res version.)"
   }
 ]

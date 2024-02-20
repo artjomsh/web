@@ -88,6 +88,6 @@
     "href": "projects/poetree/index.html",
     "title": "PoeTree",
     "section": "",
-    "text": "PoeTree is a standardized collection of poetry corpora comprising over 300,000 poems in nine languages (Czech, English, French, German, Hungarian, Italian, Portuguese, Russian, and Spanish). The project is supported by Czech Science Foundation and is helmed by Petr Plecháč. I am a part of a large team, and I help with annotations and access points.\nI wrote a small wrapper around PoeTree’s API for R to access data in a tidy format.\nThe latest version of full JSON collection is also available on Zenodo"
+    "text": "PoeTree is a standardized collection of poetry corpora comprising over 300,000 poems in nine languages (Czech, English, French, German, Hungarian, Italian, Portuguese, Russian, and Spanish). The project is supported by Czech Science Foundation and is helmed by Petr Plecháč. I am a part of a large team, and I help with annotations and access points.\nI wrote a small wrapper around PoeTree’s API for R to directly get data in a tidy format.\nThe latest version of full JSON collection is also available on Zenodo"
   }
 ]

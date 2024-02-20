@@ -6,10 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Cb">
-<meta name="description" content="Project at IJP PAN aimed at identifying hidden patterns and similarities in texts, computationally.">
+<meta name="author" content="CA">
+<meta name="description" content="Standardized multilingual collection of poetry corpora">
 
-<title>Artjoms Šeļa - Foundations of Computational Stylometry</title>
+<title>Artjoms Šeļa - PoeTree</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -21,25 +21,6 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1.6em;
   vertical-align: middle;
-}
-div.csl-bib-body { }
-div.csl-entry {
-  clear: both;
-}
-.hanging div.csl-entry {
-  margin-left:2em;
-  text-indent:-2em;
-}
-div.csl-left-margin {
-  min-width:2em;
-  float:left;
-}
-div.csl-right-inline {
-  margin-left:2em;
-  padding-left:1em;
-}
-div.csl-indent {
-  margin-left: 2em;
 }
 </style>
 
@@ -84,13 +65,13 @@ div.csl-indent {
 
 
 <link rel="stylesheet" href="../../styles.css">
-<meta property="og:title" content="Artjoms Šeļa - Foundations of Computational Stylometry">
-<meta property="og:description" content="Project at IJP PAN aimed at identifying hidden patterns and similarities in texts, computationally.">
-<meta property="og:image" content="featured.jpg">
+<meta property="og:title" content="Artjoms Šeļa - PoeTree">
+<meta property="og:description" content="Standardized multilingual collection of poetry corpora">
+<meta property="og:image" content="featured.png">
 <meta property="og:site-name" content="Artjoms Šeļa">
-<meta name="twitter:title" content="Artjoms Šeļa - Foundations of Computational Stylometry">
-<meta name="twitter:description" content="Project at IJP PAN aimed at identifying hidden patterns and similarities in texts, computationally.">
-<meta name="twitter:image" content="featured.jpg">
+<meta name="twitter:title" content="Artjoms Šeļa - PoeTree">
+<meta name="twitter:description" content="Standardized multilingual collection of poetry corpora">
+<meta name="twitter:image" content="featured.png">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -143,12 +124,12 @@ div.csl-indent {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Foundations of Computational Stylometry</h1>
+<h1 class="title">PoeTree</h1>
 </div>
 
 <div>
   <div class="description">
-    <p>Project at IJP PAN aimed at identifying hidden patterns and similarities in texts, computationally.</p>
+    <p>Standardized multilingual collection of poetry corpora</p>
   </div>
 </div>
 
@@ -163,26 +144,13 @@ div.csl-indent {
 
 </header>
 
-<p>Working as a postdoc on this project (also known as FoCS), which is run by <a href="http://maciejeder.org/">Maciej Eder</a> in the Computational Stylistics Group of the Methodology Department at the Institute of Polish Language. Our goal is to understand the differences between texts and the forces that shape them, such as authorship, genre, and style. We frequently publish together with <a href="https://ijp.pan.pl/pracownicy/joanna-byszuk/">Joanna Byszuk</a>, <a href="https://ijp.pan.pl/pracownicy/michal-wozniak/">Michał Woźniak</a>, and <a href="https://twitter.com/rantyben">Ben Nagy</a>. Plus many other friends!</p>
-<p>You can find more information on the <a href="https://computationalstylistics.github.io/projects/focs/">official page</a>.</p>
+<p><a href="https://versologie.cz/poetree/index">PoeTree</a> is a standardized collection of poetry corpora comprising over 300,000 poems in nine languages (Czech, English, French, German, Hungarian, Italian, Portuguese, Russian, and Spanish). The project is supported by Czech Science Foundation and is helmed by Petr Plecháč. I am a part of a large team, and I help with annotations and access points.</p>
+<p>I wrote a small wrapper around PoeTree’s API for <code>R</code> to access data in a tidy format.</p>
+<p>The latest version of full JSON collection is also available on <a href="10.5281/zenodo.10008458">Zenodo</a></p>
 
 
 
-
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography">
-<div id="ref-byszuk_detecting_2020" class="csl-entry" role="doc-biblioentry">
-Byszuk, Joanna, Michał Woźniak, Mike Kestemont, Albert Leśniak, Wojciech Łukasik, Artjoms Šeļa, and Maciej Eder. 2020. <span>“Detecting Direct Speech in 19th-Century Novels.”</span> In <em><span>LREC</span> 2020</em>. <a href="https://aclanthology.org/2020.lt4hala-1.15">https://aclanthology.org/2020.lt4hala-1.15</a>.
-</div>
-<div id="ref-idziak_scalable_2021" class="csl-entry" role="doc-biblioentry">
-Idziak, Jan, Artjoms Šeļa, Michał Woźniak, Albert Leśniak, Joanna Byszuk, and Maciej Eder. 2021. <span>“Scalable Handwritten Text Recognition System for Lexicographic Sources of Under-Resourced Languages and Alphabets.”</span> In <em>Computational <span>Science</span> – <span>ICCS</span> 2021</em>, edited by Maciej Paszynski, Dieter Kranzlmüller, Valeria V. Krzhizhanovskaya, Jack J. Dongarra, and Peter M. A. Sloot, 137–50. Lecture <span>Notes</span> in <span>Computer</span> <span>Science</span>. Cham: Springer International Publishing. <a href="https://doi.org/10.1007/978-3-030-77961-0_13">https://doi.org/10.1007/978-3-030-77961-0_13</a>.
-</div>
-<div id="ref-sela_differences_2021" class="csl-entry" role="doc-biblioentry">
-Šeļa, Artjoms. 2021. <span>“Differences, Distances and Fingerprints: The Fundamentals of Stylometry and Multivariate Text Analysis [<span>Erinevused</span>, Kaugused Ja Sõrmejäljed: <span>Stilomeetria</span> Ja Mitmemõõtmelise Tekstianalüüsi Alused].”</span> <em>Keel Ja Kirjandus</em>, no. 8-9: 696–718. <a href="https://doi.org/10.54013/kk764a3">https://doi.org/10.54013/kk764a3</a>.
-</div>
-<div id="ref-sela_stage_2023" class="csl-entry" role="doc-biblioentry">
-Šeļa, Artjoms, Ben Nagy, Joanna Byszuk, Laura Hernández-Lorenzo, Botond Szemes, and Maciej Eder. 2023. <span>“From Stage to Page: Language Independent Bootstrap Measures of Distinctiveness in Fictional Speech.”</span> arXiv. <a href="https://arxiv.org/abs/2301.05659">https://arxiv.org/abs/2301.05659</a>.
-</div>
-</div></section></div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
